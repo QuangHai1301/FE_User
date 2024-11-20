@@ -1,0 +1,97 @@
+/* Style cho thanh navigation */
+nav {
+  display: flex;
+  justify-content: space-between; /* Chia đều không gian giữa các phần */
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #f3f3f3;
+  z-index: 999;
+  position: relative;
+}
+
+/* Bộ lọc ở trung tâm nav */
+.filter-container {
+  position: absolute;
+  left: 50%; /* Căn giữa từ trái */
+  transform: translateX(-50%); /* Dịch sang trái một nửa chiều rộng */
+  display: flex;
+  gap: 10px;
+}
+
+/* Style cho dropdown bộ lọc */
+.filter-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Đặt phần profile và icon về bên phải */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto; /* Đẩy phần profile-container sang bên phải */
+}
+
+/* Style cho icon */
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Style cho nút Đăng nhập và Đăng ký */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Style cho nút Đăng nhập */
+.login-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Style cho nút Đăng ký */
+.signup-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Hiệu ứng hover cho các nút */
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.signup-btn:hover {
+  background-color: #218838;
+}
+
+/* Responsive - Thu nhỏ khoảng cách giữa các dropdown nếu cần */
+@media screen and (max-width: 768px) {
+  .filter-container {
+    gap: 5px; /* Thu nhỏ khoảng cách giữa các bộ lọc */
+  }
+
+  .filter-select {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
