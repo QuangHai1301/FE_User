@@ -24,3 +24,17 @@
     color: #323232;
     cursor: pointer;
   }
+  .card {
+    margin-right: auto;
+    width: 60%;
+    height: 500px;
+  }
+  .card-title {
+    margin-top: auto;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+  }
+  .price {
+    margin-top: 100px;
+  }

@@ -1,4 +1,5 @@
 import { BsFillBagFill } from "react-icons/bs";
+import "../CSS/HomePage.css"
 
 const Card = ({ ID, Attachment, Title, Price, Description }) => {
   return (

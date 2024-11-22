@@ -1,9 +1,27 @@
 import React from 'react'
-
+import Nav from '../Navigation/Nav'
+import '../Sidebar/Sidebar.css'
 function Detail_Product() {
+
+  
   return (
-    <div>Detail_Product</div>
+        <Nav/>
   )
 }
 
 export default Detail_Product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
