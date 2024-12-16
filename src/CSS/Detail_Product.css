@@ -1,0 +1,73 @@
+/* Căn chỉnh giao diện tổng quan của chi tiết sản phẩm */
+.detail-product-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tiêu đề sản phẩm */
+  .detail-product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Phong cách cho hình ảnh sản phẩm */
+  .detail-product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Phong cách cho thông tin sản phẩm */
+  .detail-product-info {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Căn chỉnh từng dòng thông tin của sản phẩm */
+  .detail-product-info p {
+    margin: 8px 0;
+  }
+  
+  /* Phong cách cho từng tiêu đề nhỏ trong thông tin sản phẩm */
+  .detail-product-info p strong {
+    color: #444;
+  }
+  
+  /* Phong cách cho giá */
+  .detail-product-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  
+  /* Nút quay lại trang chính */
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  

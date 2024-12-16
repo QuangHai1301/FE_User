@@ -1,0 +1,88 @@
+/* Căn giữa toàn bộ container */
+.edit-article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .edit-article-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-article-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-submit,
+  .btn-back {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-back {
+    background-color: #6c757d;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-back:hover {
+    background-color: #5a6268;
+  }
+  
+  .loading-message {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
